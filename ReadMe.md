@@ -13,9 +13,15 @@ console.log(global); // returns the global obj in nodejs
 - MJS - going forward this is the standard using
 
 - create package.json : {type: "module"}
+
   - then you can export by writing export in front of var and fun (named export)
   - and import by using import statements eg - import {sum} from "path"
   - using this will disable require and module.exports
   - by default used in raectjs, angular etc
   - can be used in async way
   - strict mode
+
+  # Synchronous and Asynchronous code of node js
+
+  synchronous - var , function or naything that doesn't block the main thread
+  asynchronous - settimeout , file, api data fetching
