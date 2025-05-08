@@ -1,3 +1,4 @@
+require("dotenv").config();
 const { sum, multiply } = require("./calculate");
 
 var name = "Namaste NodeJS";
